@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView'
-import MealsByIngredient from '../views/MealsByIngredients'
-import MealsByLetter from '../views/MealsByLetter'
-import MealsByName from '../views/MealsByName'
+import HomeView from '../views/HomeView.vue'
+import MealsByIngredient from '../views/MealsByIngredients.vue'
+import MealsByLetter from '../views/MealsByLetter.vue'
+import MealsByName from '../views/MealsByName.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
